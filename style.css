@@ -27,9 +27,24 @@ p{font-size: 16px;padding: 6px 0px 2px 0px;}
 ul, ol{padding: 10px 30px;background-color: #e2e2e2;width: fit-content;}
 pre{
     padding: 6px 10px;width: fit-content;
-    background-color: #121212;color: #e2e2e2;
+    background-color: #121212;
+    color: #e2e2e2;
+    position: relative;
+    border-radius: 6px;
 }
 
+.copy-icon {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+    color: #555;
+    font-size: 16px;
+}
+
+.copy-icon:hover {
+    color: #D1D1DD;
+}
 @media screen and (max-width: 800px) {
     #navbar {
         position: relative;top: 0px;left: 0px;
